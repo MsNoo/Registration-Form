@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- metatagai, kurie nesa informacija narsyklei -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet - susieja su css nustatytu stiliumi -->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="icon" href="./Images/tabIcon.jpg">
+    <title>Registration form</title>
+</head>
+<!-- SERVERIS IESKO SIU FAILU tokiu eiliskumu: home.html, home.php, index.html, index.php -->
+
+<body>
+
+    <!-- MAIN <main>-->
+
+    <main id="container">
+
+        <!-- ID logoContainer -->
+        <!-- ID logoText -->
+        <div id="logoContainer">
+            <img src="./Images/tabIcon.jpg" alt="logo" width="60px" height="60px">
+            <p id="logoText">ZEMR</p>
+        </div>
+
+        <!-- 5k Registration ID "registrationText" -->
+        <p id="registrationText">5k Registration</p>
+
+        <!-- ID formConteiner -->
+        <div id="formConteiner">
+            <p>Name*</p>
+            <div class="nameLine m-r-s m-b-s">
+                <input type="text" id="name">
+                <p class="nameLineText">First Name</p>
+            </div>
+
+            <div class="nameLine m-b-s">
+                <input type="text">
+                <p class="nameLineText">Last Name</p>
+            </div>
+
+            <div class="m-b-s">
+                <p>Email address*</p>
+                <input class="fullSizeInput" type="text">
+            </div>
+
+            <div class="m-b-s">
+                <p>Date of Birth</p>
+                <input style="color: grey;" type="date" name="" id="">
+            </div>
+
+            <div class="m-b-s">
+                <p>Phone Number*</p>
+                <input class="fullSizeInput" type="text">
+            </div>
+
+            <div class="m-b-s squareParent">
+                <p>Will you be running or walking?</p>
+                <select style="color: grey ;" class="fullSizeInput select" id="">
+                    <option style="display: none;" value="0">Choose One</option>
+                    <option style="color: black;" value="1">Walking</option>
+                    <option style="color: black;" value="2">Running</option>
+                </select>
+                <div id="square"></div>
+            </div>
+
+            <button type="submit">Continue</button>
+        </div>
+    </main>
+</body>
+
+</html>

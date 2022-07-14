@@ -1,0 +1,105 @@
+body {
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 401px;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: calc((100% - 401px)/2);
+    border-radius: 5px;
+}
+
+#formConteiner {
+    padding: 20px;
+}
+
+#logoContainer>* {
+    display: inline-block;
+}
+
+#logoContainer {
+    padding-top: 10px;
+    margin-left: 120px;
+}
+
+#logoText {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 30px;
+    margin-top: 15px;
+    color: grey;
+}
+
+#registrationText {
+    text-align: center;
+}
+
+.nameLine {
+    display: inline-block;
+}
+
+.nameLineText {
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+}
+
+input {
+    /* all: unset; */
+    background-color: rgba(242, 241, 241);
+    height: 32px;
+    border-radius: 5px;
+    width: 168px;
+    border-style: none;
+}
+
+.m-r-s {
+    margin-right: 20px;
+}
+
+.m-b-s {
+    margin-bottom: 20px;
+}
+
+.fullSizeInput {
+    width: 360px;
+}
+
+.select {
+    background-color: rgba(242, 241, 241);
+    border-style: none;
+    height: 35px;
+    border-radius: 5px;
+    width: 360px;
+}
+
+button {
+    all: unset;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(117, 48, 183, 0.804);
+    color: white;
+    text-align: center;
+}
+
+button:active {
+    background-color: rgba(137, 43, 226, 0.769);
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+select {
+   /* all: unset; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../Images/arrow.png");
+    background-size: 15px 25px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+}
